@@ -19,11 +19,11 @@ ASSETS = DOCS / "assets"
 LINK_BLIND_75 = "https://neetcode.io/practice?tab=blind75"
 LINK_NEETCODE_150 = "https://neetcode.io/practice?tab=neetcode150"
 
-# código: (nome, emoji, cor)
+# código: (nome, emoji)
 DIFICULDADES = {
-    "E": ("Fácil", "🟢", "#00b8a3"),
-    "M": ("Médio", "🟡", "#ffb800"),
-    "H": ("Difícil", "🔴", "#ff375f"),
+    "E": ("Fácil", "🟢"),
+    "M": ("Médio", "🟡"),
+    "H": ("Difícil", "🔴"),
 }
 
 # NeetCode 150 por categoria: (número, título, dificuldade)
@@ -216,7 +216,7 @@ NEETCODE_150 = {
     ],
 }
 
-# a Blind 75 inteira está dentro da NeetCode 150
+# a Blind 75 inteira está dentro da NeetCode 150 (marcada com ⭐ no README)
 BLIND_75 = {
     217, 242, 1, 49, 347, 271, 238, 128,
     125, 15, 11,
@@ -238,16 +238,19 @@ BLIND_75 = {
     191, 338, 190, 268, 371,
 }
 
+ROSA = "f58fc4"
+AZUL = "8dd3f7"
+
 TEMAS = {
     "light": {
-        "fundo": "#ffffff", "borda": "#d0d7de", "texto": "#1f2328",
-        "suave": "#656d76", "trilho": "#eaeef2",
-        "Blind 75": "#bf3989", "NeetCode 150": "#8250df",
+        "fundo": "#ffffff", "borda": "#f6d9e8", "texto": "#1f2328",
+        "suave": "#6e6a78", "trilho": "#fcedf5",
+        "rosa": f"#{ROSA}", "azul": f"#{AZUL}",
     },
     "dark": {
         "fundo": "#0d1117", "borda": "#30363d", "texto": "#e6edf3",
-        "suave": "#8d96a0", "trilho": "#21262d",
-        "Blind 75": "#f778ba", "NeetCode 150": "#a371f7",
+        "suave": "#8d96a0", "trilho": "#232833",
+        "rosa": "#ffa9d4", "azul": "#a3dcfb",
     },
 }
 
@@ -288,7 +291,7 @@ def ler_cabecalho(arquivo):
 
 
 def marcar_resolvidos(problemas):
-    """Marca os problemas das listas e devolve as soluções que estão fora delas."""
+    """Marca os problemas da lista e devolve as soluções que estão fora dela."""
     por_numero = {p["numero"]: p for p in problemas}
     por_slug = {slug(p["titulo"]): p for p in problemas}
     extras = []
@@ -326,95 +329,96 @@ def barra(feitos, total, tamanho=12):
     return "█" * cheios + "░" * (tamanho - cheios)
 
 
+def nome_problema(p):
+    estrela = " ⭐" if p.get("blind75") else ""
+    return f"[{p['titulo']}]({link_leetcode(p['titulo'])}){estrela}"
+
+
 # ---------------------------------------------------------------- card SVG
 
-RAIO = 50
-CIRCUNFERENCIA = 2 * math.pi * RAIO
-
-
-def painel_svg(x, nome, descricao, problemas, t):
-    cor = t[nome]
+def gerar_card(problemas, tema):
+    t = TEMAS[tema]
     feitos, total = contar(problemas)
-    cx, cy = x + 95, 148
+    cx, cy, raio = 132, 132, 74
+    circunferencia = 2 * math.pi * raio
+    bx, largura = 270, 574
 
     partes = [
-        f'<text x="{x + 28}" y="46" class="titulo">{nome}</text>',
-        f'<text x="{x + 28}" y="66" class="suave">{descricao}</text>',
-        f'<text x="{x + 412}" y="48" class="pct" text-anchor="end" style="fill:{cor}">{feitos / total:.0%}</text>',
-        f'<circle cx="{cx}" cy="{cy}" r="{RAIO}" fill="none" stroke="{t["trilho"]}" stroke-width="10"/>',
+        f'<circle cx="{cx}" cy="{cy}" r="{raio}" fill="none" stroke="{t["trilho"]}" stroke-width="14"/>',
     ]
     if feitos:
         partes.append(
-            f'<circle class="anel" cx="{cx}" cy="{cy}" r="{RAIO}" fill="none" stroke="{cor}" '
-            f'stroke-width="10" stroke-linecap="round" stroke-dasharray="{CIRCUNFERENCIA:.2f}" '
-            f'stroke-dashoffset="{CIRCUNFERENCIA * (1 - feitos / total):.2f}" '
+            f'<circle cx="{cx}" cy="{cy}" r="{raio}" fill="none" stroke="url(#gradiente)" '
+            f'stroke-width="14" stroke-linecap="round" stroke-dasharray="{circunferencia:.2f}" '
+            f'stroke-dashoffset="{circunferencia * (1 - feitos / total):.2f}" '
             f'transform="rotate(-90 {cx} {cy})"/>'
         )
     partes += [
-        f'<text x="{cx}" y="{cy + 3}" class="numero" text-anchor="middle">{feitos}</text>',
-        f'<text x="{cx}" y="{cy + 21}" class="suave" text-anchor="middle">de {total}</text>',
+        f'<text x="{cx}" y="{cy + 10}" class="pct" text-anchor="middle">{feitos / total:.0%}</text>',
+        f'<text x="{cx}" y="{cy + 32}" class="suave" text-anchor="middle">concluído</text>',
+        f'<text x="{bx}" y="58" class="titulo">NeetCode 150</text>',
+        f'<text x="{bx}" y="80" class="suave">progresso nos 150 problemas</text>',
+        f'<text x="{bx + largura}" y="62" class="total" text-anchor="end">'
+        f'<tspan class="forte">{feitos}</tspan> / {total}</text>',
     ]
 
-    bx, largura = x + 190, 222
-    for i, (codigo, (rotulo, _, cor_dif)) in enumerate(DIFICULDADES.items()):
+    for i, (codigo, (rotulo, _)) in enumerate(DIFICULDADES.items()):
         f, tot = contar([p for p in problemas if p["dificuldade"] == codigo])
-        y = 114 + i * 40
+        y = 128 + i * 40
         partes += [
             f'<text x="{bx}" y="{y}" class="rotulo">{rotulo}</text>',
             f'<text x="{bx + largura}" y="{y}" class="suave" text-anchor="end">'
             f'<tspan class="forte">{f}</tspan> / {tot}</text>',
-            f'<rect x="{bx}" y="{y + 8}" width="{largura}" height="6" rx="3" fill="{t["trilho"]}"/>',
+            f'<rect x="{bx}" y="{y + 9}" width="{largura}" height="8" rx="4" fill="{t["trilho"]}"/>',
         ]
         if f:
-            preenchido = max(largura * f / tot, 6)
+            preenchido = max(largura * f / tot, 8)
             partes.append(
-                f'<rect class="barra" x="{bx}" y="{y + 8}" width="{preenchido:.1f}" '
-                f'height="6" rx="3" fill="{cor_dif}"/>'
+                f'<rect x="{bx}" y="{y + 9}" width="{preenchido:.1f}" height="8" rx="4" '
+                f'fill="url(#gradiente-barra)"/>'
             )
 
-    return "\n  ".join(partes)
-
-
-def gerar_card(problemas, tema):
-    t = TEMAS[tema]
-    b75 = [p for p in problemas if p["blind75"]]
-    feitos_b75, _ = contar(b75)
-    feitos_nc, _ = contar(problemas)
-
-    estilo = f"""
+    corpo = "\n  ".join(partes)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="880" height="264" viewBox="0 0 880 264" role="img" aria-labelledby="titulo">
+  <title id="titulo">NeetCode 150: {feitos} de {total} ({feitos / total:.0%})</title>
+  <defs>
+    <linearGradient id="gradiente" gradientUnits="userSpaceOnUse" x1="0" y1="{cy - raio}" x2="0" y2="{cy + raio}">
+      <stop offset="0" stop-color="{t["rosa"]}"/>
+      <stop offset="1" stop-color="{t["azul"]}"/>
+    </linearGradient>
+    <linearGradient id="gradiente-barra">
+      <stop offset="0" stop-color="{t["rosa"]}"/>
+      <stop offset="1" stop-color="{t["azul"]}"/>
+    </linearGradient>
+  </defs>
+  <style>
     text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: {t["texto"]}; }}
-    .titulo {{ font-size: 19px; font-weight: 600; }}
+    .titulo {{ font-size: 20px; font-weight: 600; }}
     .suave {{ font-size: 12px; fill: {t["suave"]}; }}
+    .total {{ font-size: 15px; fill: {t["suave"]}; }}
     .rotulo {{ font-size: 13px; font-weight: 500; }}
-    .forte {{ font-weight: 600; fill: {t["texto"]}; }}
-    .pct {{ font-size: 22px; font-weight: 700; }}
-    .numero {{ font-size: 30px; font-weight: 700; }}
-  """
-
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="880" height="236" viewBox="0 0 880 236" role="img" aria-labelledby="titulo">
-  <title id="titulo">Blind 75: {feitos_b75} de 75 · NeetCode 150: {feitos_nc} de 150</title>
-  <style>{estilo}</style>
-  <rect x="0.5" y="0.5" width="879" height="235" rx="14" fill="{t["fundo"]}" stroke="{t["borda"]}"/>
-  <line x1="440" y1="28" x2="440" y2="208" stroke="{t["borda"]}"/>
-  {painel_svg(0, "Blind 75", "a lista clássica de entrevistas", b75, t)}
-  {painel_svg(440, "NeetCode 150", "Blind 75 + 75 problemas extras", problemas, t)}
+    .forte {{ font-weight: 700; fill: {t["texto"]}; }}
+    .pct {{ font-size: 36px; font-weight: 700; }}
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="263" rx="16" fill="{t["fundo"]}" stroke="{t["borda"]}"/>
+  {corpo}
 </svg>
 """
 
 
 # ---------------------------------------------------------------- README
 
-def badge(rotulo, mensagem, cor, extra=""):
+def badge(rotulo, mensagem, extra=""):
     def esc(s):
         return quote(str(s).replace("-", "--").replace("_", "__").replace(" ", "_"), safe="_")
-    return f"![{rotulo}](https://img.shields.io/badge/{esc(rotulo)}-{esc(mensagem)}-{cor}?style=for-the-badge{extra})"
+    return (
+        f"![{rotulo}](https://img.shields.io/badge/{esc(rotulo)}-{esc(mensagem)}-{AZUL}"
+        f"?style=for-the-badge&labelColor={ROSA}{extra})"
+    )
 
 
 def gerar_readme(problemas, extras):
-    b75 = [p for p in problemas if p["blind75"]]
-    feitos_b75, _ = contar(b75)
-    feitos_nc, _ = contar(problemas)
-    total_resolvidos = feitos_nc + len(extras)
+    feitos, total = contar(problemas)
 
     linhas = [
         '<div align="center">',
@@ -425,10 +429,9 @@ def gerar_readme(problemas, extras):
         f"**[Blind 75]({LINK_BLIND_75})** e **[NeetCode 150]({LINK_NEETCODE_150})**",
         "",
         " ".join([
-            badge("Python", "3", "3776AB", "&logo=python&logoColor=white"),
-            badge("resolvidos", total_resolvidos, "f778ba"),
-            badge("Blind 75", f"{feitos_b75}/75", "bf3989"),
-            badge("NeetCode 150", f"{feitos_nc}/150", "8250df"),
+            badge("Python", "3", "&logo=python&logoColor=white"),
+            badge("NeetCode 150", f"{feitos}/{total} · {feitos / total:.0%}"),
+            badge("resolvidos", feitos + len(extras)),
         ]),
         "",
         "</div>",
@@ -439,26 +442,27 @@ def gerar_readme(problemas, extras):
         "",
         "<picture>",
         '  <source media="(prefers-color-scheme: dark)" srcset="assets/estatisticas-dark.svg">',
-        '  <img alt="Progresso nas listas Blind 75 e NeetCode 150" src="assets/estatisticas-light.svg" width="100%">',
+        '  <img alt="Progresso na NeetCode 150" src="assets/estatisticas-light.svg" width="100%">',
         "</picture>",
-        "",
-        "> [!NOTE]",
-        "> A NeetCode 150 contém a Blind 75 inteira, então todo problema da Blind conta para as duas listas.",
         "",
         "### Por categoria",
         "",
-        "| Categoria | Progresso | NeetCode 150 | Blind 75 |",
-        "| :-- | :-- | :-: | :-: |",
+        "| Categoria | Progresso | Resolvidos |",
+        "| :-- | :-- | :-: |",
     ]
 
     for categoria in NEETCODE_150:
-        grupo = [p for p in problemas if p["categoria"] == categoria]
-        f_nc, t_nc = contar(grupo)
-        f_b, t_b = contar([p for p in grupo if p["blind75"]])
-        nome = f"{categoria} ✨" if f_nc == t_nc else categoria
-        linhas.append(f"| {nome} | `{barra(f_nc, t_nc)}` | {f_nc} / {t_nc} | {f_b} / {t_b} |")
+        f, t = contar([p for p in problemas if p["categoria"] == categoria])
+        nome = f"{categoria} ✨" if f == t else categoria
+        linhas.append(f"| {nome} | `{barra(f, t)}` | {f} / {t} |")
 
-    linhas += ["", "## ✅ Resolvidos", ""]
+    linhas += [
+        "",
+        "## ✅ Resolvidos",
+        "",
+        "⭐ = também está na Blind 75",
+        "",
+    ]
 
     resolvidos = sorted(
         [p for p in problemas if p["arquivo"]] + extras,
@@ -466,19 +470,18 @@ def gerar_readme(problemas, extras):
     )
     if resolvidos:
         linhas += [
-            "| # | Problema | Dificuldade | Categoria | Listas | Solução |",
-            "| --: | :-- | :-- | :-- | :-- | :-: |",
+            "| # | Problema | Dificuldade | Categoria | Solução |",
+            "| --: | :-- | :-- | :-- | :-: |",
         ]
         for p in resolvidos:
             if "categoria" in p:
-                nome, emoji, _ = DIFICULDADES[p["dificuldade"]]
+                nome, emoji = DIFICULDADES[p["dificuldade"]]
                 dificuldade, categoria = f"{emoji} {nome}", p["categoria"]
-                listas = "Blind 75 · NeetCode 150" if p["blind75"] else "NeetCode 150"
             else:
-                dificuldade = categoria = listas = "—"
+                dificuldade = categoria = "—"
             linhas.append(
-                f"| {p['numero']} | [{p['titulo']}]({link_leetcode(p['titulo'])}) | {dificuldade} "
-                f"| {categoria} | {listas} | [🐍]({link_solucao(p['arquivo'])}) |"
+                f"| {p['numero']} | {nome_problema(p)} | {dificuldade} "
+                f"| {categoria} | [🐍]({link_solucao(p['arquivo'])}) |"
             )
     else:
         linhas.append("_Nenhum ainda — bora começar!_")
@@ -487,28 +490,24 @@ def gerar_readme(problemas, extras):
         "",
         "## 🗺️ Roadmap",
         "",
-        "Todos os problemas da NeetCode 150, por categoria. ⭐ = também está na Blind 75.",
+        "Todos os problemas da NeetCode 150, por categoria. ⭐ = também está na Blind 75",
         "",
     ]
 
-    for categoria, itens in NEETCODE_150.items():
+    for categoria in NEETCODE_150:
         grupo = [p for p in problemas if p["categoria"] == categoria]
-        feitos, total = contar(grupo)
+        f, t = contar(grupo)
         linhas += [
             "<details>",
-            f"<summary><b>{categoria.replace('&', '&amp;')}</b> · {feitos}/{total}</summary>",
+            f"<summary><b>{categoria.replace('&', '&amp;')}</b> · {f}/{t}</summary>",
             "",
-            "| | # | Problema | Dificuldade | |",
-            "| :-: | --: | :-- | :-- | :-: |",
+            "| | # | Problema | Dificuldade |",
+            "| :-: | --: | :-- | :-- |",
         ]
         for p in grupo:
             status = f"[✅]({link_solucao(p['arquivo'])})" if p["arquivo"] else "⬜"
-            nome, emoji, _ = DIFICULDADES[p["dificuldade"]]
-            estrela = "⭐" if p["blind75"] else ""
-            linhas.append(
-                f"| {status} | {p['numero']} | [{p['titulo']}]({link_leetcode(p['titulo'])}) "
-                f"| {emoji} {nome} | {estrela} |"
-            )
+            nome, emoji = DIFICULDADES[p["dificuldade"]]
+            linhas.append(f"| {status} | {p['numero']} | {nome_problema(p)} | {emoji} {nome} |")
         linhas += ["", "</details>", ""]
 
     linhas += [
@@ -546,7 +545,7 @@ def gerar_readme(problemas, extras):
         "---",
         "",
         '<div align="center">',
-        f"<sub>atualizado em {date.today():%d/%m/%Y} · feito com 💜</sub>",
+        f"<sub>atualizado em {date.today():%d/%m/%Y} · feito com 🩷</sub>",
         "</div>",
         "",
     ]
@@ -562,9 +561,8 @@ def main():
         (ASSETS / f"estatisticas-{tema}.svg").write_text(gerar_card(problemas, tema), encoding="utf-8")
     (DOCS / "README.md").write_text(gerar_readme(problemas, extras), encoding="utf-8")
 
-    feitos_b75, _ = contar([p for p in problemas if p["blind75"]])
-    feitos_nc, _ = contar(problemas)
-    print(f"README atualizado! Blind 75: {feitos_b75}/75 · NeetCode 150: {feitos_nc}/150 · extras: {len(extras)}")
+    feitos, total = contar(problemas)
+    print(f"README atualizado! NeetCode 150: {feitos}/{total} ({feitos / total:.0%}) · extras: {len(extras)}")
 
 
 if __name__ == "__main__":

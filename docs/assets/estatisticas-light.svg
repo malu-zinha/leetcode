@@ -1,50 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="236" viewBox="0 0 880 236" role="img" aria-labelledby="titulo">
-  <title id="titulo">Blind 75: 6 de 75 · NeetCode 150: 6 de 150</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="264" viewBox="0 0 880 264" role="img" aria-labelledby="titulo">
+  <title id="titulo">NeetCode 150: 6 de 150 (4%)</title>
+  <defs>
+    <linearGradient id="gradiente" gradientUnits="userSpaceOnUse" x1="0" y1="58" x2="0" y2="206">
+      <stop offset="0" stop-color="#f58fc4"/>
+      <stop offset="1" stop-color="#8dd3f7"/>
+    </linearGradient>
+    <linearGradient id="gradiente-barra">
+      <stop offset="0" stop-color="#f58fc4"/>
+      <stop offset="1" stop-color="#8dd3f7"/>
+    </linearGradient>
+  </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
-    .titulo { font-size: 19px; font-weight: 600; }
-    .suave { font-size: 12px; fill: #656d76; }
+    .titulo { font-size: 20px; font-weight: 600; }
+    .suave { font-size: 12px; fill: #6e6a78; }
+    .total { font-size: 15px; fill: #6e6a78; }
     .rotulo { font-size: 13px; font-weight: 500; }
-    .forte { font-weight: 600; fill: #1f2328; }
-    .pct { font-size: 22px; font-weight: 700; }
-    .numero { font-size: 30px; font-weight: 700; }
+    .forte { font-weight: 700; fill: #1f2328; }
+    .pct { font-size: 36px; font-weight: 700; }
   </style>
-  <rect x="0.5" y="0.5" width="879" height="235" rx="14" fill="#ffffff" stroke="#d0d7de"/>
-  <line x1="440" y1="28" x2="440" y2="208" stroke="#d0d7de"/>
-  <text x="28" y="46" class="titulo">Blind 75</text>
-  <text x="28" y="66" class="suave">a lista clássica de entrevistas</text>
-  <text x="412" y="48" class="pct" text-anchor="end" style="fill:#bf3989">8%</text>
-  <circle cx="95" cy="148" r="50" fill="none" stroke="#eaeef2" stroke-width="10"/>
-  <circle class="anel" cx="95" cy="148" r="50" fill="none" stroke="#bf3989" stroke-width="10" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="289.03" transform="rotate(-90 95 148)"/>
-  <text x="95" y="151" class="numero" text-anchor="middle">6</text>
-  <text x="95" y="169" class="suave" text-anchor="middle">de 75</text>
-  <text x="190" y="114" class="rotulo">Fácil</text>
-  <text x="412" y="114" class="suave" text-anchor="end"><tspan class="forte">3</tspan> / 19</text>
-  <rect x="190" y="122" width="222" height="6" rx="3" fill="#eaeef2"/>
-  <rect class="barra" x="190" y="122" width="35.1" height="6" rx="3" fill="#00b8a3"/>
-  <text x="190" y="154" class="rotulo">Médio</text>
-  <text x="412" y="154" class="suave" text-anchor="end"><tspan class="forte">3</tspan> / 49</text>
-  <rect x="190" y="162" width="222" height="6" rx="3" fill="#eaeef2"/>
-  <rect class="barra" x="190" y="162" width="13.6" height="6" rx="3" fill="#ffb800"/>
-  <text x="190" y="194" class="rotulo">Difícil</text>
-  <text x="412" y="194" class="suave" text-anchor="end"><tspan class="forte">0</tspan> / 7</text>
-  <rect x="190" y="202" width="222" height="6" rx="3" fill="#eaeef2"/>
-  <text x="468" y="46" class="titulo">NeetCode 150</text>
-  <text x="468" y="66" class="suave">Blind 75 + 75 problemas extras</text>
-  <text x="852" y="48" class="pct" text-anchor="end" style="fill:#8250df">4%</text>
-  <circle cx="535" cy="148" r="50" fill="none" stroke="#eaeef2" stroke-width="10"/>
-  <circle class="anel" cx="535" cy="148" r="50" fill="none" stroke="#8250df" stroke-width="10" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="301.59" transform="rotate(-90 535 148)"/>
-  <text x="535" y="151" class="numero" text-anchor="middle">6</text>
-  <text x="535" y="169" class="suave" text-anchor="middle">de 150</text>
-  <text x="630" y="114" class="rotulo">Fácil</text>
-  <text x="852" y="114" class="suave" text-anchor="end"><tspan class="forte">3</tspan> / 28</text>
-  <rect x="630" y="122" width="222" height="6" rx="3" fill="#eaeef2"/>
-  <rect class="barra" x="630" y="122" width="23.8" height="6" rx="3" fill="#00b8a3"/>
-  <text x="630" y="154" class="rotulo">Médio</text>
-  <text x="852" y="154" class="suave" text-anchor="end"><tspan class="forte">3</tspan> / 101</text>
-  <rect x="630" y="162" width="222" height="6" rx="3" fill="#eaeef2"/>
-  <rect class="barra" x="630" y="162" width="6.6" height="6" rx="3" fill="#ffb800"/>
-  <text x="630" y="194" class="rotulo">Difícil</text>
-  <text x="852" y="194" class="suave" text-anchor="end"><tspan class="forte">0</tspan> / 21</text>
-  <rect x="630" y="202" width="222" height="6" rx="3" fill="#eaeef2"/>
+  <rect x="0.5" y="0.5" width="879" height="263" rx="16" fill="#ffffff" stroke="#f6d9e8"/>
+  <circle cx="132" cy="132" r="74" fill="none" stroke="#fcedf5" stroke-width="14"/>
+  <circle cx="132" cy="132" r="74" fill="none" stroke="url(#gradiente)" stroke-width="14" stroke-linecap="round" stroke-dasharray="464.96" stroke-dashoffset="446.36" transform="rotate(-90 132 132)"/>
+  <text x="132" y="142" class="pct" text-anchor="middle">4%</text>
+  <text x="132" y="164" class="suave" text-anchor="middle">concluído</text>
+  <text x="270" y="58" class="titulo">NeetCode 150</text>
+  <text x="270" y="80" class="suave">progresso nos 150 problemas</text>
+  <text x="844" y="62" class="total" text-anchor="end"><tspan class="forte">6</tspan> / 150</text>
+  <text x="270" y="128" class="rotulo">Fácil</text>
+  <text x="844" y="128" class="suave" text-anchor="end"><tspan class="forte">3</tspan> / 28</text>
+  <rect x="270" y="137" width="574" height="8" rx="4" fill="#fcedf5"/>
+  <rect x="270" y="137" width="61.5" height="8" rx="4" fill="url(#gradiente-barra)"/>
+  <text x="270" y="168" class="rotulo">Médio</text>
+  <text x="844" y="168" class="suave" text-anchor="end"><tspan class="forte">3</tspan> / 101</text>
+  <rect x="270" y="177" width="574" height="8" rx="4" fill="#fcedf5"/>
+  <rect x="270" y="177" width="17.0" height="8" rx="4" fill="url(#gradiente-barra)"/>
+  <text x="270" y="208" class="rotulo">Difícil</text>
+  <text x="844" y="208" class="suave" text-anchor="end"><tspan class="forte">0</tspan> / 21</text>
+  <rect x="270" y="217" width="574" height="8" rx="4" fill="#fcedf5"/>
 </svg>
