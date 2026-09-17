@@ -12,6 +12,7 @@ s = s.upper() # tudo maiúsculo
 
 lista = []
 lista.append(n)
+lista.pop(n)
 len(lista) # tamanho da lista
 range(len(s)) # range do tamanho da lista
 
