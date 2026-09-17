@@ -100,6 +100,13 @@
       "video": "3SJ3pUkPQMc"
     },
     {
+      "numero": 274,
+      "titulo": "H-Index",
+      "slug": "h-index",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing"
+    },
+    {
       "numero": 380,
       "titulo": "Insert Delete GetRandom O(1)",
       "slug": "insert-delete-getrandom-o1",
@@ -132,6 +139,13 @@
       "video": "0sWShKIJoo4"
     },
     {
+      "numero": 151,
+      "titulo": "Reverse Words in a String",
+      "slug": "reverse-words-in-a-string",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing"
+    },
+    {
       "numero": 28,
       "titulo": "Find the Index of the First Occurrence in a String",
       "slug": "find-the-index-of-the-first-occurrence-in-a-string",
@@ -162,6 +176,13 @@
       "dificuldade": "M",
       "categoria": "Arrays & Hashing",
       "video": "TjFXEUCMqI8"
+    },
+    {
+      "numero": 383,
+      "titulo": "Ransom Note",
+      "slug": "ransom-note",
+      "dificuldade": "E",
+      "categoria": "Arrays & Hashing"
     },
     {
       "numero": 205,
@@ -299,18 +320,11 @@
       "video": "5WZl3MMT0Eg"
     },
     {
-      "numero": 274,
-      "titulo": "H-Index",
-      "slug": "h-index",
+      "numero": 954,
+      "titulo": "Maximum Sum Circular Subarray",
+      "slug": "maximum-sum-circular-subarray",
       "dificuldade": "M",
-      "categoria": "Array / String"
-    },
-    {
-      "numero": 151,
-      "titulo": "Reverse Words in a String",
-      "slug": "reverse-words-in-a-string",
-      "dificuldade": "M",
-      "categoria": "Array / String"
+      "categoria": "Greedy"
     },
     {
       "numero": 13,
@@ -361,6 +375,13 @@
       "video": "T41rL0L3Pnw"
     },
     {
+      "numero": 289,
+      "titulo": "Game of Life",
+      "slug": "game-of-life",
+      "dificuldade": "M",
+      "categoria": "Math & Geometry"
+    },
+    {
       "numero": 202,
       "titulo": "Happy Number",
       "slug": "happy-number",
@@ -385,6 +406,13 @@
       "video": "jIaA8boiG1s"
     },
     {
+      "numero": 172,
+      "titulo": "Factorial Trailing Zeroes",
+      "slug": "factorial-trailing-zeroes",
+      "dificuldade": "M",
+      "categoria": "Math & Geometry"
+    },
+    {
       "numero": 50,
       "titulo": "Pow(x, n)",
       "slug": "powx-n",
@@ -399,20 +427,6 @@
       "dificuldade": "H",
       "categoria": "Math & Geometry",
       "video": "Bb9lOXUOnFw"
-    },
-    {
-      "numero": 289,
-      "titulo": "Game of Life",
-      "slug": "game-of-life",
-      "dificuldade": "M",
-      "categoria": "Matrix"
-    },
-    {
-      "numero": 383,
-      "titulo": "Ransom Note",
-      "slug": "ransom-note",
-      "dificuldade": "E",
-      "categoria": "Hashmap"
     },
     {
       "numero": 228,
@@ -643,6 +657,20 @@
       "video": "vm63HuIU7kw"
     },
     {
+      "numero": 117,
+      "titulo": "Populating Next Right Pointers in Each Node II",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "dificuldade": "M",
+      "categoria": "Trees"
+    },
+    {
+      "numero": 114,
+      "titulo": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "dificuldade": "M",
+      "categoria": "Trees"
+    },
+    {
       "numero": 112,
       "titulo": "Path Sum",
       "slug": "path-sum",
@@ -675,12 +703,33 @@
       "video": "RXy5RzGF5wo"
     },
     {
+      "numero": 222,
+      "titulo": "Count Complete Tree Nodes",
+      "slug": "count-complete-tree-nodes",
+      "dificuldade": "M",
+      "categoria": "Trees"
+    },
+    {
+      "numero": 236,
+      "titulo": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "dificuldade": "M",
+      "categoria": "Trees"
+    },
+    {
       "numero": 199,
       "titulo": "Binary Tree Right Side View",
       "slug": "binary-tree-right-side-view",
       "dificuldade": "M",
       "categoria": "Trees",
       "video": "d4zLyf32e3I"
+    },
+    {
+      "numero": 637,
+      "titulo": "Average of Levels in Binary Tree",
+      "slug": "average-of-levels-in-binary-tree",
+      "dificuldade": "E",
+      "categoria": "Trees"
     },
     {
       "numero": 102,
@@ -697,6 +746,13 @@
       "dificuldade": "M",
       "categoria": "Trees",
       "video": "igbboQbiwqw"
+    },
+    {
+      "numero": 530,
+      "titulo": "Minimum Absolute Difference in BST",
+      "slug": "minimum-absolute-difference-in-bst",
+      "dificuldade": "E",
+      "categoria": "Trees"
     },
     {
       "numero": 230,
@@ -721,48 +777,6 @@
       "dificuldade": "E",
       "categoria": "Trees",
       "video": "0K0uCMYq5ng"
-    },
-    {
-      "numero": 117,
-      "titulo": "Populating Next Right Pointers in Each Node II",
-      "slug": "populating-next-right-pointers-in-each-node-ii",
-      "dificuldade": "M",
-      "categoria": "Binary Tree General"
-    },
-    {
-      "numero": 114,
-      "titulo": "Flatten Binary Tree to Linked List",
-      "slug": "flatten-binary-tree-to-linked-list",
-      "dificuldade": "M",
-      "categoria": "Binary Tree General"
-    },
-    {
-      "numero": 222,
-      "titulo": "Count Complete Tree Nodes",
-      "slug": "count-complete-tree-nodes",
-      "dificuldade": "M",
-      "categoria": "Binary Tree General"
-    },
-    {
-      "numero": 236,
-      "titulo": "Lowest Common Ancestor of a Binary Tree",
-      "slug": "lowest-common-ancestor-of-a-binary-tree",
-      "dificuldade": "M",
-      "categoria": "Binary Tree General"
-    },
-    {
-      "numero": 637,
-      "titulo": "Average of Levels in Binary Tree",
-      "slug": "average-of-levels-in-binary-tree",
-      "dificuldade": "E",
-      "categoria": "Binary Tree BFS"
-    },
-    {
-      "numero": 530,
-      "titulo": "Minimum Absolute Difference in BST",
-      "slug": "minimum-absolute-difference-in-bst",
-      "dificuldade": "E",
-      "categoria": "Binary Search Tree"
     },
     {
       "numero": 200,
@@ -813,26 +827,26 @@
       "video": "Akt3glAwyfY"
     },
     {
-      "numero": 127,
-      "titulo": "Word Ladder",
-      "slug": "word-ladder",
-      "dificuldade": "H",
-      "categoria": "Graphs",
-      "video": "h9iTnkgv05E"
-    },
-    {
       "numero": 945,
       "titulo": "Snakes and Ladders",
       "slug": "snakes-and-ladders",
       "dificuldade": "M",
-      "categoria": "Graph BFS"
+      "categoria": "Graphs"
     },
     {
       "numero": 433,
       "titulo": "Minimum Genetic Mutation",
       "slug": "minimum-genetic-mutation",
       "dificuldade": "M",
-      "categoria": "Graph BFS"
+      "categoria": "Graphs"
+    },
+    {
+      "numero": 127,
+      "titulo": "Word Ladder",
+      "slug": "word-ladder",
+      "dificuldade": "H",
+      "categoria": "Graphs",
+      "video": "h9iTnkgv05E"
     },
     {
       "numero": 208,
@@ -911,14 +925,7 @@
       "titulo": "Construct Quad Tree",
       "slug": "construct-quad-tree",
       "dificuldade": "M",
-      "categoria": "Divide & Conquer"
-    },
-    {
-      "numero": 954,
-      "titulo": "Maximum Sum Circular Subarray",
-      "slug": "maximum-sum-circular-subarray",
-      "dificuldade": "M",
-      "categoria": "Kadane's Algorithm"
+      "categoria": "Binary Search"
     },
     {
       "numero": 35,
@@ -1001,19 +1008,19 @@
       "video": "1IUzNJ6TPEM"
     },
     {
+      "numero": 373,
+      "titulo": "Find K Pairs with Smallest Sums",
+      "slug": "find-k-pairs-with-smallest-sums",
+      "dificuldade": "M",
+      "categoria": "Heap / Priority Queue"
+    },
+    {
       "numero": 295,
       "titulo": "Find Median from Data Stream",
       "slug": "find-median-from-data-stream",
       "dificuldade": "H",
       "categoria": "Heap / Priority Queue",
       "video": "itmhHWaHupI"
-    },
-    {
-      "numero": 373,
-      "titulo": "Find K Pairs with Smallest Sums",
-      "slug": "find-k-pairs-with-smallest-sums",
-      "dificuldade": "M",
-      "categoria": "Heap"
     },
     {
       "numero": 67,
@@ -1060,13 +1067,6 @@
       "slug": "bitwise-and-of-numbers-range",
       "dificuldade": "M",
       "categoria": "Bit Manipulation"
-    },
-    {
-      "numero": 172,
-      "titulo": "Factorial Trailing Zeroes",
-      "slug": "factorial-trailing-zeroes",
-      "dificuldade": "M",
-      "categoria": "Math"
     },
     {
       "numero": 70,
@@ -1157,26 +1157,26 @@
       "video": "XYi2-LPrwm4"
     },
     {
-      "numero": 221,
-      "titulo": "Maximal Square",
-      "slug": "maximal-square",
-      "dificuldade": "M",
-      "categoria": "2-D Dynamic Programming",
-      "video": "6X7Ha2PrDmM"
-    },
-    {
       "numero": 123,
       "titulo": "Best Time to Buy and Sell Stock III",
       "slug": "best-time-to-buy-and-sell-stock-iii",
       "dificuldade": "H",
-      "categoria": "Multidimensional DP"
+      "categoria": "2-D Dynamic Programming"
     },
     {
       "numero": 188,
       "titulo": "Best Time to Buy and Sell Stock IV",
       "slug": "best-time-to-buy-and-sell-stock-iv",
       "dificuldade": "H",
-      "categoria": "Multidimensional DP"
+      "categoria": "2-D Dynamic Programming"
+    },
+    {
+      "numero": 221,
+      "titulo": "Maximal Square",
+      "slug": "maximal-square",
+      "dificuldade": "M",
+      "categoria": "2-D Dynamic Programming",
+      "video": "6X7Ha2PrDmM"
     }
   ]
 }

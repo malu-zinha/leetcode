@@ -32,6 +32,26 @@ NAVEGADOR = (
 
 DIFICULDADES = {"easy": "E", "medium": "M", "hard": "H"}
 
+# Os study plans do LeetCode agrupam com outros nomes. Para o README somar tudo nas
+# mesmas seções, os problemas que o NeetCode não conhece caem na categoria equivalente.
+GRUPOS_EQUIVALENTES = {
+    "Array / String": "Arrays & Hashing",
+    "Hashmap": "Arrays & Hashing",
+    "Matrix": "Math & Geometry",
+    "Math": "Math & Geometry",
+    "Binary Tree General": "Trees",
+    "Binary Tree BFS": "Trees",
+    "Binary Search Tree": "Trees",
+    "Graph General": "Graphs",
+    "Graph BFS": "Graphs",
+    "Trie": "Tries",
+    "Heap": "Heap / Priority Queue",
+    "Kadane's Algorithm": "Greedy",
+    "1D DP": "1-D Dynamic Programming",
+    "Multidimensional DP": "2-D Dynamic Programming",
+    "Divide & Conquer": "Binary Search",
+}
+
 
 def contexto_ssl():
     """O Python do python.org no macOS não usa os certificados do sistema."""
@@ -180,6 +200,8 @@ def main():
                 problema["categoria"] = conhecido["categoria"]
                 problema["video"] = conhecido["video"]
                 problema["premium"] = conhecido["premium"]
+            else:
+                problema["categoria"] = GRUPOS_EQUIVALENTES.get(problema["categoria"], problema["categoria"])
         escrever(slug, nome or nome_oficial, f"https://leetcode.com/studyplan/{slug}/", ordem, problemas)
 
     print("Listas atualizadas!")
