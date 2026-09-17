@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-labelledby="titulo">
+  <title id="titulo">Blind 75: 6 de 75 (8%)</title>
+  <defs>
+    <linearGradient id="gradiente" gradientUnits="userSpaceOnUse" x1="0" y1="58" x2="0" y2="206">
+      <stop offset="0" stop-color="#f58fc4"/>
+      <stop offset="1" stop-color="#8dd3f7"/>
+    </linearGradient>
+    <linearGradient id="gradiente-barra">
+      <stop offset="0" stop-color="#f58fc4"/>
+      <stop offset="1" stop-color="#8dd3f7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .titulo { font-size: 20px; font-weight: 600; }
+    .suave { font-size: 12px; fill: #6e6a78; }
+    .total { font-size: 15px; fill: #6e6a78; }
+    .rotulo { font-size: 13px; font-weight: 500; }
+    .forte { font-weight: 700; fill: #1f2328; }
+    .pct { font-size: 36px; font-weight: 700; }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="299" rx="16" fill="#ffffff" stroke="#f6d9e8"/>
+  <circle cx="132" cy="132" r="74" fill="none" stroke="#fcedf5" stroke-width="14"/>
+  <circle cx="132" cy="132" r="74" fill="none" stroke="url(#gradiente)" stroke-width="14" stroke-linecap="round" stroke-dasharray="464.96" stroke-dashoffset="427.76" transform="rotate(-90 132 132)"/>
+  <text x="132" y="142" class="pct" text-anchor="middle">8%</text>
+  <text x="132" y="164" class="suave" text-anchor="middle">da lista em foco</text>
+  <text x="270" y="58" class="titulo">Blind 75</text>
+  <text x="270" y="80" class="suave">lista em foco</text>
+  <text x="844" y="62" class="total" text-anchor="end"><tspan class="forte">6</tspan> / 75</text>
+  <circle cx="275" cy="104" r="5" fill="#3fb950"/>
+  <text x="287" y="109" class="suave">3 fáceis</text>
+  <circle cx="355" cy="104" r="5" fill="#d29922"/>
+  <text x="367" y="109" class="suave">3 médios</text>
+  <circle cx="435" cy="104" r="5" fill="#f85149"/>
+  <text x="447" y="109" class="suave">0 difíceis</text>
+  <text x="270" y="140" class="rotulo">Blind 75</text>
+  <text x="844" y="140" class="suave" text-anchor="end"><tspan class="forte">6</tspan> / 75</text>
+  <rect x="270" y="149" width="574" height="8" rx="4" fill="#fcedf5"/>
+  <rect x="270" y="149" width="45.9" height="8" rx="4" fill="url(#gradiente-barra)"/>
+  <text x="270" y="180" class="rotulo">NeetCode 150</text>
+  <text x="844" y="180" class="suave" text-anchor="end"><tspan class="forte">6</tspan> / 150</text>
+  <rect x="270" y="189" width="574" height="8" rx="4" fill="#fcedf5"/>
+  <rect x="270" y="189" width="23.0" height="8" rx="4" fill="url(#gradiente-barra)"/>
+  <text x="270" y="220" class="rotulo">Top Interview 150</text>
+  <text x="844" y="220" class="suave" text-anchor="end"><tspan class="forte">5</tspan> / 150</text>
+  <rect x="270" y="229" width="574" height="8" rx="4" fill="#fcedf5"/>
+  <rect x="270" y="229" width="19.1" height="8" rx="4" fill="url(#gradiente-barra)"/>
+</svg>

@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="251" viewBox="0 0 880 251" role="img" aria-labelledby="titulo">
+  <title id="titulo">Atividade: 0 dias seguidos, recorde de 2 dias</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .titulo { font-size: 20px; font-weight: 600; }
+    .suave { font-size: 11px; fill: #6e6a78; }
+    .rotulo { font-size: 13px; font-weight: 500; }
+    .numero { font-size: 34px; font-weight: 700; fill: #f58fc4; }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="250" rx="16" fill="#ffffff" stroke="#f6d9e8"/>
+  <text x="40" y="44" class="titulo">Atividade</text>
+  <rect x="48" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>22/03/2026: 0 problemas</title></rect>
+  <rect x="48" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>23/03/2026: 0 problemas</title></rect>
+  <rect x="48" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>24/03/2026: 0 problemas</title></rect>
+  <rect x="48" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>25/03/2026: 0 problemas</title></rect>
+  <rect x="48" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>26/03/2026: 0 problemas</title></rect>
+  <rect x="48" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>27/03/2026: 0 problemas</title></rect>
+  <rect x="48" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>28/03/2026: 0 problemas</title></rect>
+  <text x="48" y="64" class="suave">mar</text>
+  <rect x="67" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>29/03/2026: 0 problemas</title></rect>
+  <rect x="67" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>30/03/2026: 0 problemas</title></rect>
+  <rect x="67" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>31/03/2026: 0 problemas</title></rect>
+  <rect x="67" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>01/04/2026: 0 problemas</title></rect>
+  <rect x="67" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>02/04/2026: 0 problemas</title></rect>
+  <rect x="67" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>03/04/2026: 0 problemas</title></rect>
+  <rect x="67" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>04/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>05/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>06/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>07/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>08/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>09/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>10/04/2026: 0 problemas</title></rect>
+  <rect x="86" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>11/04/2026: 0 problemas</title></rect>
+  <text x="86" y="64" class="suave">abr</text>
+  <rect x="105" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>12/04/2026: 0 problemas</title></rect>
+  <rect x="105" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>13/04/2026: 0 problemas</title></rect>
+  <rect x="105" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>14/04/2026: 0 problemas</title></rect>
+  <rect x="105" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>15/04/2026: 0 problemas</title></rect>
+  <rect x="105" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>16/04/2026: 0 problemas</title></rect>
+  <rect x="105" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>17/04/2026: 0 problemas</title></rect>
+  <rect x="105" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>18/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>19/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>20/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>21/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>22/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>23/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>24/04/2026: 0 problemas</title></rect>
+  <rect x="124" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>25/04/2026: 0 problemas</title></rect>
+  <rect x="143" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>26/04/2026: 0 problemas</title></rect>
+  <rect x="143" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>27/04/2026: 0 problemas</title></rect>
+  <rect x="143" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>28/04/2026: 0 problemas</title></rect>
+  <rect x="143" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>29/04/2026: 0 problemas</title></rect>
+  <rect x="143" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>30/04/2026: 0 problemas</title></rect>
+  <rect x="143" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>01/05/2026: 0 problemas</title></rect>
+  <rect x="143" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>02/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>03/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>04/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>05/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>06/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>07/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>08/05/2026: 0 problemas</title></rect>
+  <rect x="162" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>09/05/2026: 0 problemas</title></rect>
+  <text x="162" y="64" class="suave">mai</text>
+  <rect x="181" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>10/05/2026: 0 problemas</title></rect>
+  <rect x="181" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>11/05/2026: 0 problemas</title></rect>
+  <rect x="181" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>12/05/2026: 0 problemas</title></rect>
+  <rect x="181" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>13/05/2026: 0 problemas</title></rect>
+  <rect x="181" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>14/05/2026: 0 problemas</title></rect>
+  <rect x="181" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>15/05/2026: 0 problemas</title></rect>
+  <rect x="181" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>16/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>17/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>18/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>19/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>20/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>21/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>22/05/2026: 0 problemas</title></rect>
+  <rect x="200" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>23/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>24/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>25/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>26/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>27/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>28/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>29/05/2026: 0 problemas</title></rect>
+  <rect x="219" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>30/05/2026: 0 problemas</title></rect>
+  <rect x="238" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>31/05/2026: 0 problemas</title></rect>
+  <rect x="238" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>01/06/2026: 0 problemas</title></rect>
+  <rect x="238" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>02/06/2026: 0 problemas</title></rect>
+  <rect x="238" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>03/06/2026: 0 problemas</title></rect>
+  <rect x="238" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>04/06/2026: 0 problemas</title></rect>
+  <rect x="238" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>05/06/2026: 0 problemas</title></rect>
+  <rect x="238" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>06/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>07/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>08/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>09/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>10/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>11/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>12/06/2026: 0 problemas</title></rect>
+  <rect x="257" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>13/06/2026: 0 problemas</title></rect>
+  <text x="257" y="64" class="suave">jun</text>
+  <rect x="276" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>14/06/2026: 0 problemas</title></rect>
+  <rect x="276" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>15/06/2026: 0 problemas</title></rect>
+  <rect x="276" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>16/06/2026: 0 problemas</title></rect>
+  <rect x="276" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>17/06/2026: 0 problemas</title></rect>
+  <rect x="276" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>18/06/2026: 0 problemas</title></rect>
+  <rect x="276" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>19/06/2026: 0 problemas</title></rect>
+  <rect x="276" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>20/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>21/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>22/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>23/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>24/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>25/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>26/06/2026: 0 problemas</title></rect>
+  <rect x="295" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>27/06/2026: 0 problemas</title></rect>
+  <rect x="314" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>28/06/2026: 0 problemas</title></rect>
+  <rect x="314" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>29/06/2026: 0 problemas</title></rect>
+  <rect x="314" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>30/06/2026: 0 problemas</title></rect>
+  <rect x="314" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>01/07/2026: 0 problemas</title></rect>
+  <rect x="314" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>02/07/2026: 0 problemas</title></rect>
+  <rect x="314" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>03/07/2026: 0 problemas</title></rect>
+  <rect x="314" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>04/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>05/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>06/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>07/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>08/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>09/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>10/07/2026: 0 problemas</title></rect>
+  <rect x="333" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>11/07/2026: 0 problemas</title></rect>
+  <text x="333" y="64" class="suave">jul</text>
+  <rect x="352" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>12/07/2026: 0 problemas</title></rect>
+  <rect x="352" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>13/07/2026: 0 problemas</title></rect>
+  <rect x="352" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>14/07/2026: 0 problemas</title></rect>
+  <rect x="352" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>15/07/2026: 0 problemas</title></rect>
+  <rect x="352" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>16/07/2026: 0 problemas</title></rect>
+  <rect x="352" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>17/07/2026: 0 problemas</title></rect>
+  <rect x="352" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>18/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>19/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>20/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>21/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>22/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>23/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>24/07/2026: 0 problemas</title></rect>
+  <rect x="371" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>25/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>26/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>27/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>28/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>29/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>30/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>31/07/2026: 0 problemas</title></rect>
+  <rect x="390" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>01/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>02/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>03/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>04/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>05/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>06/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>07/08/2026: 0 problemas</title></rect>
+  <rect x="409" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>08/08/2026: 0 problemas</title></rect>
+  <text x="409" y="64" class="suave">ago</text>
+  <rect x="428" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>09/08/2026: 0 problemas</title></rect>
+  <rect x="428" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>10/08/2026: 0 problemas</title></rect>
+  <rect x="428" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>11/08/2026: 0 problemas</title></rect>
+  <rect x="428" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>12/08/2026: 0 problemas</title></rect>
+  <rect x="428" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>13/08/2026: 0 problemas</title></rect>
+  <rect x="428" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>14/08/2026: 0 problemas</title></rect>
+  <rect x="428" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>15/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>16/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>17/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>18/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>19/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>20/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>21/08/2026: 0 problemas</title></rect>
+  <rect x="447" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>22/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>23/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>24/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>25/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>26/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>27/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>28/08/2026: 0 problemas</title></rect>
+  <rect x="466" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>29/08/2026: 0 problemas</title></rect>
+  <rect x="485" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>30/08/2026: 0 problemas</title></rect>
+  <rect x="485" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>31/08/2026: 0 problemas</title></rect>
+  <rect x="485" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>01/09/2026: 0 problemas</title></rect>
+  <rect x="485" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>02/09/2026: 0 problemas</title></rect>
+  <rect x="485" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>03/09/2026: 0 problemas</title></rect>
+  <rect x="485" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>04/09/2026: 0 problemas</title></rect>
+  <rect x="485" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>05/09/2026: 0 problemas</title></rect>
+  <rect x="504" y="74" width="15" height="15" rx="4" fill="#fcedf5"><title>06/09/2026: 0 problemas</title></rect>
+  <rect x="504" y="93" width="15" height="15" rx="4" fill="#fcedf5"><title>07/09/2026: 0 problemas</title></rect>
+  <rect x="504" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>08/09/2026: 0 problemas</title></rect>
+  <rect x="504" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>09/09/2026: 0 problemas</title></rect>
+  <rect x="504" y="150" width="15" height="15" rx="4" fill="#f58fc4"><title>10/09/2026: 3 problemas</title></rect>
+  <rect x="504" y="169" width="15" height="15" rx="4" fill="#fcedf5"><title>11/09/2026: 0 problemas</title></rect>
+  <rect x="504" y="188" width="15" height="15" rx="4" fill="#fcedf5"><title>12/09/2026: 0 problemas</title></rect>
+  <text x="504" y="64" class="suave">set</text>
+  <rect x="523" y="74" width="15" height="15" rx="4" fill="#f9d2e7"><title>13/09/2026: 1 problema</title></rect>
+  <rect x="523" y="93" width="15" height="15" rx="4" fill="#f5aed4"><title>14/09/2026: 2 problemas</title></rect>
+  <rect x="523" y="112" width="15" height="15" rx="4" fill="#fcedf5"><title>15/09/2026: 0 problemas</title></rect>
+  <rect x="523" y="131" width="15" height="15" rx="4" fill="#fcedf5"><title>16/09/2026: 0 problemas</title></rect>
+  <rect x="523" y="150" width="15" height="15" rx="4" fill="#fcedf5"><title>17/09/2026: 0 problemas</title></rect>
+  <text x="8" y="105" class="suave">seg</text>
+  <text x="8" y="143" class="suave">qua</text>
+  <text x="8" y="181" class="suave">sex</text>
+  <text x="566" y="96" class="numero">0</text>
+  <text x="566" y="116" class="suave">dias seguidos</text>
+  <text x="566" y="152" class="rotulo">recorde: 2 dias</text>
+  <text x="566" y="174" class="suave">6 nos últimos 6 meses</text>
+  <text x="399" y="229" class="suave" text-anchor="end">menos</text>
+  <rect x="407" y="217" width="15" height="15" rx="4" fill="#fcedf5"/>
+  <rect x="426" y="217" width="15" height="15" rx="4" fill="#f9d2e7"/>
+  <rect x="445" y="217" width="15" height="15" rx="4" fill="#f5aed4"/>
+  <rect x="464" y="217" width="15" height="15" rx="4" fill="#f58fc4"/>
+  <rect x="483" y="217" width="15" height="15" rx="4" fill="#d9629f"/>
+  <text x="506" y="229" class="suave">mais</text>
+</svg>
