@@ -1,0 +1,613 @@
+{
+  "nome": "Blind 75",
+  "link": "https://neetcode.io/practice?tab=blind75",
+  "ordem": 1,
+  "problemas": [
+    {
+      "numero": 217,
+      "titulo": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "dificuldade": "E",
+      "categoria": "Arrays & Hashing",
+      "video": "3OamzN90kPg"
+    },
+    {
+      "numero": 242,
+      "titulo": "Valid Anagram",
+      "slug": "valid-anagram",
+      "dificuldade": "E",
+      "categoria": "Arrays & Hashing",
+      "video": "9UtInBqnCgA"
+    },
+    {
+      "numero": 1,
+      "titulo": "Two Sum",
+      "slug": "two-sum",
+      "dificuldade": "E",
+      "categoria": "Arrays & Hashing",
+      "video": "KLlXCFG5TnA"
+    },
+    {
+      "numero": 49,
+      "titulo": "Group Anagrams",
+      "slug": "group-anagrams",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing",
+      "video": "vzdNOK2oB2E"
+    },
+    {
+      "numero": 347,
+      "titulo": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing",
+      "video": "YPTqKIgVk-k"
+    },
+    {
+      "numero": 238,
+      "titulo": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing",
+      "video": "bNvIQI2wAjk"
+    },
+    {
+      "numero": 271,
+      "titulo": "Encode and Decode Strings",
+      "slug": "encode-and-decode-strings",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing",
+      "video": "B1k_sxOSgv8",
+      "premium": true
+    },
+    {
+      "numero": 128,
+      "titulo": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "dificuldade": "M",
+      "categoria": "Arrays & Hashing",
+      "video": "P6RZZMu_maU"
+    },
+    {
+      "numero": 125,
+      "titulo": "Valid Palindrome",
+      "slug": "valid-palindrome",
+      "dificuldade": "E",
+      "categoria": "Two Pointers",
+      "video": "jJXJ16kPFWg"
+    },
+    {
+      "numero": 15,
+      "titulo": "3Sum",
+      "slug": "3sum",
+      "dificuldade": "M",
+      "categoria": "Two Pointers",
+      "video": "jzZsG8n2R9A"
+    },
+    {
+      "numero": 11,
+      "titulo": "Container With Most Water",
+      "slug": "container-with-most-water",
+      "dificuldade": "M",
+      "categoria": "Two Pointers",
+      "video": "UuiTKBwPgAo"
+    },
+    {
+      "numero": 121,
+      "titulo": "Best Time to Buy And Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "dificuldade": "E",
+      "categoria": "Sliding Window",
+      "video": "1pkOgXD63yU"
+    },
+    {
+      "numero": 3,
+      "titulo": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "dificuldade": "M",
+      "categoria": "Sliding Window",
+      "video": "wiGpQwVHdE0"
+    },
+    {
+      "numero": 424,
+      "titulo": "Longest Repeating Character Replacement",
+      "slug": "longest-repeating-character-replacement",
+      "dificuldade": "M",
+      "categoria": "Sliding Window",
+      "video": "gqXU1UyA8pk"
+    },
+    {
+      "numero": 76,
+      "titulo": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "dificuldade": "H",
+      "categoria": "Sliding Window",
+      "video": "jSto0O4AJbM"
+    },
+    {
+      "numero": 20,
+      "titulo": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "dificuldade": "E",
+      "categoria": "Stack",
+      "video": "WTzjTskDFMg"
+    },
+    {
+      "numero": 153,
+      "titulo": "Find Minimum In Rotated Sorted Array",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "dificuldade": "M",
+      "categoria": "Binary Search",
+      "video": "nIVW4P8b1VA"
+    },
+    {
+      "numero": 33,
+      "titulo": "Search In Rotated Sorted Array",
+      "slug": "search-in-rotated-sorted-array",
+      "dificuldade": "M",
+      "categoria": "Binary Search",
+      "video": "U8XENwh8Oy8"
+    },
+    {
+      "numero": 206,
+      "titulo": "Reverse Linked List",
+      "slug": "reverse-linked-list",
+      "dificuldade": "E",
+      "categoria": "Linked List",
+      "video": "G0_I-ZF0S38"
+    },
+    {
+      "numero": 21,
+      "titulo": "Merge Two Sorted Lists",
+      "slug": "merge-two-sorted-lists",
+      "dificuldade": "E",
+      "categoria": "Linked List",
+      "video": "XIdigk956u0"
+    },
+    {
+      "numero": 143,
+      "titulo": "Reorder List",
+      "slug": "reorder-list",
+      "dificuldade": "M",
+      "categoria": "Linked List",
+      "video": "S5bfdUTrKLM"
+    },
+    {
+      "numero": 19,
+      "titulo": "Remove Nth Node From End of List",
+      "slug": "remove-nth-node-from-end-of-list",
+      "dificuldade": "M",
+      "categoria": "Linked List",
+      "video": "XVuQxVej6y8"
+    },
+    {
+      "numero": 141,
+      "titulo": "Linked List Cycle",
+      "slug": "linked-list-cycle",
+      "dificuldade": "E",
+      "categoria": "Linked List",
+      "video": "gBTe7lFR3vc"
+    },
+    {
+      "numero": 23,
+      "titulo": "Merge K Sorted Lists",
+      "slug": "merge-k-sorted-lists",
+      "dificuldade": "H",
+      "categoria": "Linked List",
+      "video": "q5a5OiGbT6Q"
+    },
+    {
+      "numero": 226,
+      "titulo": "Invert Binary Tree",
+      "slug": "invert-binary-tree",
+      "dificuldade": "E",
+      "categoria": "Trees",
+      "video": "OnSn2XEQ4MY"
+    },
+    {
+      "numero": 104,
+      "titulo": "Maximum Depth of Binary Tree",
+      "slug": "maximum-depth-of-binary-tree",
+      "dificuldade": "E",
+      "categoria": "Trees",
+      "video": "hTM3phVI6YQ"
+    },
+    {
+      "numero": 100,
+      "titulo": "Same Tree",
+      "slug": "same-tree",
+      "dificuldade": "E",
+      "categoria": "Trees",
+      "video": "vRbbcKXCxOw"
+    },
+    {
+      "numero": 572,
+      "titulo": "Subtree of Another Tree",
+      "slug": "subtree-of-another-tree",
+      "dificuldade": "E",
+      "categoria": "Trees",
+      "video": "E36O5SWp-LE"
+    },
+    {
+      "numero": 235,
+      "titulo": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "dificuldade": "M",
+      "categoria": "Trees",
+      "video": "gs2LMfuOR9k"
+    },
+    {
+      "numero": 102,
+      "titulo": "Binary Tree Level Order Traversal",
+      "slug": "binary-tree-level-order-traversal",
+      "dificuldade": "M",
+      "categoria": "Trees",
+      "video": "6ZnyEApgFYg"
+    },
+    {
+      "numero": 98,
+      "titulo": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "dificuldade": "M",
+      "categoria": "Trees",
+      "video": "s6ATEkipzow"
+    },
+    {
+      "numero": 230,
+      "titulo": "Kth Smallest Element In a Bst",
+      "slug": "kth-smallest-element-in-a-bst",
+      "dificuldade": "M",
+      "categoria": "Trees",
+      "video": "5LUXSvjmGCw"
+    },
+    {
+      "numero": 105,
+      "titulo": "Construct Binary Tree From Preorder And Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "dificuldade": "M",
+      "categoria": "Trees",
+      "video": "ihj4IQGZ2zc"
+    },
+    {
+      "numero": 124,
+      "titulo": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "dificuldade": "H",
+      "categoria": "Trees",
+      "video": "Hr5cWUld4vU"
+    },
+    {
+      "numero": 297,
+      "titulo": "Serialize And Deserialize Binary Tree",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "dificuldade": "H",
+      "categoria": "Trees",
+      "video": "u4JAi2JJhI8"
+    },
+    {
+      "numero": 208,
+      "titulo": "Implement Trie Prefix Tree",
+      "slug": "implement-trie-prefix-tree",
+      "dificuldade": "M",
+      "categoria": "Tries",
+      "video": "oobqoCJlHA0"
+    },
+    {
+      "numero": 211,
+      "titulo": "Design Add And Search Words Data Structure",
+      "slug": "design-add-and-search-words-data-structure",
+      "dificuldade": "M",
+      "categoria": "Tries",
+      "video": "BTf05gs_8iU"
+    },
+    {
+      "numero": 212,
+      "titulo": "Word Search II",
+      "slug": "word-search-ii",
+      "dificuldade": "H",
+      "categoria": "Tries",
+      "video": "asbcE9mZz_U"
+    },
+    {
+      "numero": 295,
+      "titulo": "Find Median From Data Stream",
+      "slug": "find-median-from-data-stream",
+      "dificuldade": "H",
+      "categoria": "Heap / Priority Queue",
+      "video": "itmhHWaHupI"
+    },
+    {
+      "numero": 39,
+      "titulo": "Combination Sum",
+      "slug": "combination-sum",
+      "dificuldade": "M",
+      "categoria": "Backtracking",
+      "video": "GBKI9VSKdGg"
+    },
+    {
+      "numero": 79,
+      "titulo": "Word Search",
+      "slug": "word-search",
+      "dificuldade": "M",
+      "categoria": "Backtracking",
+      "video": "pfiQ_PS1g8E"
+    },
+    {
+      "numero": 200,
+      "titulo": "Number of Islands",
+      "slug": "number-of-islands",
+      "dificuldade": "M",
+      "categoria": "Graphs",
+      "video": "pV2kpPD66nE"
+    },
+    {
+      "numero": 133,
+      "titulo": "Clone Graph",
+      "slug": "clone-graph",
+      "dificuldade": "M",
+      "categoria": "Graphs",
+      "video": "mQeF6bN8hMk"
+    },
+    {
+      "numero": 417,
+      "titulo": "Pacific Atlantic Water Flow",
+      "slug": "pacific-atlantic-water-flow",
+      "dificuldade": "M",
+      "categoria": "Graphs",
+      "video": "s-VkcjHqkGI"
+    },
+    {
+      "numero": 207,
+      "titulo": "Course Schedule",
+      "slug": "course-schedule",
+      "dificuldade": "M",
+      "categoria": "Graphs",
+      "video": "EgI5nU9etnU"
+    },
+    {
+      "numero": 323,
+      "titulo": "Number of Connected Components In An Undirected Graph",
+      "slug": "number-of-connected-components-in-an-undirected-graph",
+      "dificuldade": "M",
+      "categoria": "Graphs",
+      "video": "8f1XPm4WOUc",
+      "premium": true
+    },
+    {
+      "numero": 261,
+      "titulo": "Graph Valid Tree",
+      "slug": "graph-valid-tree",
+      "dificuldade": "M",
+      "categoria": "Graphs",
+      "video": "bXsUuownnoQ",
+      "premium": true
+    },
+    {
+      "numero": 269,
+      "titulo": "Alien Dictionary",
+      "slug": "alien-dictionary",
+      "dificuldade": "H",
+      "categoria": "Advanced Graphs",
+      "video": "6kTZYvNNyps",
+      "premium": true
+    },
+    {
+      "numero": 70,
+      "titulo": "Climbing Stairs",
+      "slug": "climbing-stairs",
+      "dificuldade": "E",
+      "categoria": "1-D Dynamic Programming",
+      "video": "Y0lT9Fck7qI"
+    },
+    {
+      "numero": 198,
+      "titulo": "House Robber",
+      "slug": "house-robber",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "73r3KWiEvyk"
+    },
+    {
+      "numero": 213,
+      "titulo": "House Robber II",
+      "slug": "house-robber-ii",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "rWAJCfYYOvM"
+    },
+    {
+      "numero": 5,
+      "titulo": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "XYQecbcd6_c"
+    },
+    {
+      "numero": 647,
+      "titulo": "Palindromic Substrings",
+      "slug": "palindromic-substrings",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "4RACzI5-du8"
+    },
+    {
+      "numero": 91,
+      "titulo": "Decode Ways",
+      "slug": "decode-ways",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "6aEyTjOwlJU"
+    },
+    {
+      "numero": 322,
+      "titulo": "Coin Change",
+      "slug": "coin-change",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "H9bfqozjoqs"
+    },
+    {
+      "numero": 152,
+      "titulo": "Maximum Product Subarray",
+      "slug": "maximum-product-subarray",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "lXVy6YWFcRM"
+    },
+    {
+      "numero": 139,
+      "titulo": "Word Break",
+      "slug": "word-break",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "Sx9NNgInc3A"
+    },
+    {
+      "numero": 300,
+      "titulo": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "dificuldade": "M",
+      "categoria": "1-D Dynamic Programming",
+      "video": "cjWnW0hdF1Y"
+    },
+    {
+      "numero": 62,
+      "titulo": "Unique Paths",
+      "slug": "unique-paths",
+      "dificuldade": "M",
+      "categoria": "2-D Dynamic Programming",
+      "video": "IlEsdxuD4lY"
+    },
+    {
+      "numero": 1143,
+      "titulo": "Longest Common Subsequence",
+      "slug": "longest-common-subsequence",
+      "dificuldade": "M",
+      "categoria": "2-D Dynamic Programming",
+      "video": "Ua0GhsJSlWM"
+    },
+    {
+      "numero": 53,
+      "titulo": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "dificuldade": "M",
+      "categoria": "Greedy",
+      "video": "5WZl3MMT0Eg"
+    },
+    {
+      "numero": 55,
+      "titulo": "Jump Game",
+      "slug": "jump-game",
+      "dificuldade": "M",
+      "categoria": "Greedy",
+      "video": "Yan0cv2cLy8"
+    },
+    {
+      "numero": 57,
+      "titulo": "Insert Interval",
+      "slug": "insert-interval",
+      "dificuldade": "M",
+      "categoria": "Intervals",
+      "video": "A8NUOmlwOlM"
+    },
+    {
+      "numero": 56,
+      "titulo": "Merge Intervals",
+      "slug": "merge-intervals",
+      "dificuldade": "M",
+      "categoria": "Intervals",
+      "video": "44H3cEC2fFM"
+    },
+    {
+      "numero": 435,
+      "titulo": "Non Overlapping Intervals",
+      "slug": "non-overlapping-intervals",
+      "dificuldade": "M",
+      "categoria": "Intervals",
+      "video": "nONCGxWoUfM"
+    },
+    {
+      "numero": 252,
+      "titulo": "Meeting Rooms",
+      "slug": "meeting-rooms",
+      "dificuldade": "E",
+      "categoria": "Intervals",
+      "video": "PaJxqZVPhbg",
+      "premium": true
+    },
+    {
+      "numero": 253,
+      "titulo": "Meeting Rooms II",
+      "slug": "meeting-rooms-ii",
+      "dificuldade": "M",
+      "categoria": "Intervals",
+      "video": "FdzJmTCVyJU",
+      "premium": true
+    },
+    {
+      "numero": 48,
+      "titulo": "Rotate Image",
+      "slug": "rotate-image",
+      "dificuldade": "M",
+      "categoria": "Math & Geometry",
+      "video": "fMSJSS7eO1w"
+    },
+    {
+      "numero": 54,
+      "titulo": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "dificuldade": "M",
+      "categoria": "Math & Geometry",
+      "video": "BJnMZNwUk1M"
+    },
+    {
+      "numero": 73,
+      "titulo": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "dificuldade": "M",
+      "categoria": "Math & Geometry",
+      "video": "T41rL0L3Pnw"
+    },
+    {
+      "numero": 191,
+      "titulo": "Number of 1 Bits",
+      "slug": "number-of-1-bits",
+      "dificuldade": "E",
+      "categoria": "Bit Manipulation",
+      "video": "5Km3utixwZs"
+    },
+    {
+      "numero": 338,
+      "titulo": "Counting Bits",
+      "slug": "counting-bits",
+      "dificuldade": "E",
+      "categoria": "Bit Manipulation",
+      "video": "RyBM56RIWrM"
+    },
+    {
+      "numero": 190,
+      "titulo": "Reverse Bits",
+      "slug": "reverse-bits",
+      "dificuldade": "E",
+      "categoria": "Bit Manipulation",
+      "video": "UcoN6UjAI64"
+    },
+    {
+      "numero": 268,
+      "titulo": "Missing Number",
+      "slug": "missing-number",
+      "dificuldade": "E",
+      "categoria": "Bit Manipulation",
+      "video": "WnPLSRLSANE"
+    },
+    {
+      "numero": 371,
+      "titulo": "Sum of Two Integers",
+      "slug": "sum-of-two-integers",
+      "dificuldade": "M",
+      "categoria": "Bit Manipulation",
+      "video": "gVUrDV4tZfY"
+    }
+  ]
+}
