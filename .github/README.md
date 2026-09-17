@@ -69,7 +69,7 @@ Repositório dos meus leetcodes resolvidos, seguindo as listas<br>
 
 A lista da vez. 🔒 = precisa de LeetCode Premium · 🎥 = vídeo do NeetCode
 
-<details>
+<details open>
 <summary><b>Arrays &amp; Hashing</b> · 2/8</summary>
 
 | | # | Problema | Dificuldade | |
