@@ -515,11 +515,14 @@ def gerar_readme(listas, catalogo, hoje):
     ]
 
     problemas_foco = problemas_da_lista(foco, catalogo)
+    aberto = True  # a primeira categoria inacabada já vem aberta
     for categoria in dict.fromkeys(p["categoria"] for p in foco["problemas"]):
         grupo = [p for p in problemas_foco if p["categoria"] == categoria]
         f, total = contar(grupo)
+        marca = " open" if aberto and f < total else ""
+        aberto = aberto and f == total
         linhas += [
-            "<details>",
+            f"<details{marca}>",
             f"<summary><b>{categoria.replace('&', '&amp;')}</b> · {f}/{total}</summary>",
             "",
             "| | # | Problema | Dificuldade | |",
