@@ -8,6 +8,8 @@ s = s.replace("substituido", "substituicao") # substitui algo na string
 s = s.lower() # tudo minúsculo
 s = s.upper() # tudo maiúsculo
 
+str(x) # transforma número em string
+
 # LISTA:
 
 lista = []
@@ -15,6 +17,8 @@ lista.append(n)
 lista.pop(n)
 len(lista) # tamanho da lista
 range(len(s)) # range do tamanho da lista
+lista.sort()
+soma = lista1 + lista2
 
 # HASH:
 
