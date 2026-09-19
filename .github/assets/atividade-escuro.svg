@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="251" viewBox="0 0 880 251" role="img" aria-labelledby="titulo">
-  <title id="titulo">Atividade: 0 dias seguidos, recorde de 2 dias</title>
+  <title id="titulo">Atividade: 1 dias seguidos, recorde de 2 dias</title>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #e6edf3; }
     .titulo { font-size: 20px; font-weight: 600; }
@@ -196,14 +196,15 @@
   <rect x="523" y="112" width="15" height="15" rx="4" fill="#232833"><title>15/09/2026: 0 problemas</title></rect>
   <rect x="523" y="131" width="15" height="15" rx="4" fill="#232833"><title>16/09/2026: 0 problemas</title></rect>
   <rect x="523" y="150" width="15" height="15" rx="4" fill="#232833"><title>17/09/2026: 0 problemas</title></rect>
-  <rect x="523" y="169" width="15" height="15" rx="4" fill="#232833"><title>18/09/2026: 0 problemas</title></rect>
+  <rect x="523" y="169" width="15" height="15" rx="4" fill="#5c3149"><title>18/09/2026: 1 problema</title></rect>
+  <rect x="523" y="188" width="15" height="15" rx="4" fill="#232833"><title>19/09/2026: 0 problemas</title></rect>
   <text x="8" y="105" class="suave">seg</text>
   <text x="8" y="143" class="suave">qua</text>
   <text x="8" y="181" class="suave">sex</text>
-  <text x="566" y="96" class="numero">0</text>
+  <text x="566" y="96" class="numero">1</text>
   <text x="566" y="116" class="suave">dias seguidos</text>
   <text x="566" y="152" class="rotulo">recorde: 2 dias</text>
-  <text x="566" y="174" class="suave">6 nos últimos 6 meses</text>
+  <text x="566" y="174" class="suave">7 nos últimos 6 meses</text>
   <text x="399" y="229" class="suave" text-anchor="end">menos</text>
   <rect x="407" y="217" width="15" height="15" rx="4" fill="#232833"/>
   <rect x="426" y="217" width="15" height="15" rx="4" fill="#5c3149"/>

@@ -28,7 +28,7 @@
   <text x="270" y="80" class="suave">lista em foco</text>
   <text x="844" y="62" class="total" text-anchor="end"><tspan class="forte">6</tspan> / 75</text>
   <circle cx="275" cy="104" r="5" fill="#3fb950"/>
-  <text x="287" y="109" class="suave">3 fáceis</text>
+  <text x="287" y="109" class="suave">4 fáceis</text>
   <circle cx="355" cy="104" r="5" fill="#d29922"/>
   <text x="367" y="109" class="suave">3 médios</text>
   <circle cx="435" cy="104" r="5" fill="#f85149"/>
@@ -42,7 +42,7 @@
   <rect x="270" y="189" width="574" height="8" rx="4" fill="#232833"/>
   <rect x="270" y="189" width="23.0" height="8" rx="4" fill="url(#gradiente-barra)"/>
   <text x="270" y="220" class="rotulo">Top Interview 150</text>
-  <text x="844" y="220" class="suave" text-anchor="end"><tspan class="forte">5</tspan> / 150</text>
+  <text x="844" y="220" class="suave" text-anchor="end"><tspan class="forte">6</tspan> / 150</text>
   <rect x="270" y="229" width="574" height="8" rx="4" fill="#232833"/>
-  <rect x="270" y="229" width="19.1" height="8" rx="4" fill="url(#gradiente-barra)"/>
+  <rect x="270" y="229" width="23.0" height="8" rx="4" fill="url(#gradiente-barra)"/>
 </svg>

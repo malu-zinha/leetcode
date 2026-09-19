@@ -5,7 +5,7 @@
 Repositório dos meus leetcodes resolvidos, seguindo as listas<br>
 **[Blind 75](https://neetcode.io/practice?tab=blind75)** → **[NeetCode 150](https://neetcode.io/practice?tab=neetcode150)** → **[Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)**
 
-![Python](https://img.shields.io/badge/Python-3-8dd3f7?style=for-the-badge&labelColor=f58fc4&logo=python&logoColor=white) ![resolvidos](https://img.shields.io/badge/resolvidos-6-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![dificuldade](https://img.shields.io/badge/dificuldade-%F0%9F%9F%A2_3_%C2%B7_%F0%9F%9F%A1_3_%C2%B7_%F0%9F%94%B4_0-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![sequência](https://img.shields.io/badge/sequ%C3%AAncia-0_dias-8dd3f7?style=for-the-badge&labelColor=f58fc4)
+![Python](https://img.shields.io/badge/Python-3-8dd3f7?style=for-the-badge&labelColor=f58fc4&logo=python&logoColor=white) ![resolvidos](https://img.shields.io/badge/resolvidos-7-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![dificuldade](https://img.shields.io/badge/dificuldade-%F0%9F%9F%A2_4_%C2%B7_%F0%9F%9F%A1_3_%C2%B7_%F0%9F%94%B4_0-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![sequência](https://img.shields.io/badge/sequ%C3%AAncia-1_dias-8dd3f7?style=for-the-badge&labelColor=f58fc4)
 
 </div>
 
@@ -29,7 +29,7 @@ Repositório dos meus leetcodes resolvidos, seguindo as listas<br>
 | :-- | :-- | :-: | :-- |
 | [Blind 75](https://neetcode.io/practice?tab=blind75) | `█░░░░░░░░░░░` | 6 / 75 | 🎯 em foco |
 | [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) | `█░░░░░░░░░░░` | 6 / 150 |  |
-| [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) | `█░░░░░░░░░░░` | 5 / 150 |  |
+| [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) | `█░░░░░░░░░░░` | 6 / 150 |  |
 
 ### Por categoria
 
@@ -51,13 +51,14 @@ Repositório dos meus leetcodes resolvidos, seguindo as listas<br>
 | 2-D Dynamic Programming | `░░░░░░░░░░░░` | 0 / 16 |
 | Greedy | `░░░░░░░░░░░░` | 0 / 10 |
 | Intervals | `░░░░░░░░░░░░` | 0 / 8 |
-| Math & Geometry | `░░░░░░░░░░░░` | 0 / 15 |
+| Math & Geometry | `█░░░░░░░░░░░` | 1 / 15 |
 | Bit Manipulation | `█░░░░░░░░░░░` | 1 / 10 |
 
 ## ✅ Resolvidos
 
 | # | Problema | Dificuldade | Categoria | Listas | Resolvido | Solução |
 | --: | :-- | :-- | :-- | :-- | :-- | :-: |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Fácil | Math & Geometry | TI150 | 18/09/26 | [🐍](../0009-palindrome-number/0009-palindrome-number.py) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Fácil | Bit Manipulation | B75 · NC150 | 14/09/26 | [🐍](../0268-missing-number/0268-missing-number.py) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Fácil | Two Pointers | B75 · NC150 · TI150 | 14/09/26 | [🐍](../0125-valid-palindrome/0125-valid-palindrome.py) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Médio | 1-D Dynamic Programming | B75 · NC150 · TI150 | 13/09/26 | [🐍](../0005-longest-palindromic-substring/0005-longest-palindromic-substring.py) |
@@ -318,5 +319,5 @@ python3 scripts/importar_listas.py --plano leetcode-75 --ordem 4
 ---
 
 <div align="center">
-<sub>última solução em 14/09/2026 · feito com 🩷</sub>
+<sub>última solução em 18/09/2026 · feito com 🩷</sub>
 </div>
