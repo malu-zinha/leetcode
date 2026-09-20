@@ -5,7 +5,7 @@
 Repositório dos meus leetcodes resolvidos, seguindo as listas<br>
 **[Blind 75](https://neetcode.io/practice?tab=blind75)** → **[NeetCode 150](https://neetcode.io/practice?tab=neetcode150)** → **[Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)**
 
-![Python](https://img.shields.io/badge/Python-3-8dd3f7?style=for-the-badge&labelColor=f58fc4&logo=python&logoColor=white) ![resolvidos](https://img.shields.io/badge/resolvidos-7-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![dificuldade](https://img.shields.io/badge/dificuldade-%F0%9F%9F%A2_4_%C2%B7_%F0%9F%9F%A1_3_%C2%B7_%F0%9F%94%B4_0-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![sequência](https://img.shields.io/badge/sequ%C3%AAncia-1_dias-8dd3f7?style=for-the-badge&labelColor=f58fc4)
+![Python](https://img.shields.io/badge/Python-3-8dd3f7?style=for-the-badge&labelColor=f58fc4&logo=python&logoColor=white) ![resolvidos](https://img.shields.io/badge/resolvidos-7-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![dificuldade](https://img.shields.io/badge/dificuldade-%F0%9F%9F%A2_4_%C2%B7_%F0%9F%9F%A1_3_%C2%B7_%F0%9F%94%B4_0-8dd3f7?style=for-the-badge&labelColor=f58fc4) ![sequência](https://img.shields.io/badge/sequ%C3%AAncia-0_dias-8dd3f7?style=for-the-badge&labelColor=f58fc4)
 
 </div>
 
